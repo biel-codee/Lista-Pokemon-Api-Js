@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="./assets/img/pokeball.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Lista Pokemon</title>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#" >
+            <img src="./assets/img/pokeball.png" alt="pokebolla" class="logo">
+        </a>
+        <a href="https://github.com/biel-codee" target="_blank"><img src="./assets/img/Lista Pokemon.png" alt="Lista pokemon" id="list-poke"></a>
+        <button id="btn-change-theme">
+            <img src="./assets/img/sun.png" alt="sun" class="img-btn">
+        </button>
+    </header>
+
+    <form class="search-form" onsubmit="performSearch(event)">
+        <input type="text" class="search-input" id="search-input" placeholder="Pesquise pokemon" autocomplete="off">
+        <button type="submit" class="search-button"><span class="material-symbols-outlined">search</span></button>
+      </form>
+      
+    <div class="pokeContainer" id="pokeContainer">
+
+        <!-- <div class="pokemon">
+            <div class="imgContainer">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Nome" class="imgPoke">
+            </div>
+            <div class="info">
+                <span class="number">#001</span>
+                <h3 class="name">Ivysaur</h3>
+                <small class="type">Tipo: <span>Grama</span></small>
+            </div> 
+        </div>  -->
+        
+    </div>
+
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>

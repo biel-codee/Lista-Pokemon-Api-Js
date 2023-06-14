@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0 auto;
+    background-image: url("./img/mode-sun.gif");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-attachment:fixed;
+}
+
+body.dark-mode{
+    background-image: url("./img/mode-moon.gif");
+}
+
+header{
+    display: flex;
+    padding: 35px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .logo , .img-btn{
+    width: 40px;
+}
+
+header .img-btn, .logo{
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+#list-poke{
+    height: 60px;
+}
+
+header #btn-change-theme{
+    background: none;
+    border: none;
+}
+
+header .logo:hover, .img-btn:hover {
+    transform: scale(1.05);
+    cursor:pointer;
+}  
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    background-color:#00000078;
+    border: 2px solid rgb(238, 248, 50);
+    border-radius: 20px;
+    font-size: 14px;
+    width: 400px;
+    color: #fff;
+    font-family: 'Poppins';
+  }
+  
+  .search-button {
+    padding: 7px 12px;
+    background-color:#00000026;
+    border: 2px solid rgb(238, 248, 50);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+
+  .pokemon:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+}
+
+.pokeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon{
+    border-radius: 10% 5%;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}  
+
+
+.imgContainer img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffffff;
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+}
+
+.imgContainer img{
+    max-width: 90%;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.number{
+    background-color: #00000026;
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.name {
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+    font-size:15px; 
+}
+
+.type{
+    font-size: 15px;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2a44c6;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f5ff35;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  } 
+
+  
