@@ -9,7 +9,9 @@
 
 + HTML 
 + CSS
-+ JavaScript 
++ JavaScript
++ GIT
++ GITHUB
 
 
 ## API 
